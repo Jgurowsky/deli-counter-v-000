@@ -9,6 +9,6 @@ def line(katz_deli)
       #puts "The line is currently: " + "#{index + 1}. #{name.}"
       "#{index+1}. #{name}"
     end
-    #puts "The line is currently: " + katz_deli.join(" ")
+    puts "The line is currently: " + katz_deli.join(" ")
   end
 end
