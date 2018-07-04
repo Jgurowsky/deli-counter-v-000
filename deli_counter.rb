@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+
 katz_deli = []
 
 def line(katz_deli)
@@ -8,6 +10,7 @@ def line(katz_deli)
     katz_deli.each_with_index.collect do |name, index|
       #puts "The line is currently: " + "#{index + 1}. #{name.}"
       "#{index+1}. #{name}"
+      binding.pry
       #puts "The line is currently: " + katz_deli.join(" ")
     end
   end
