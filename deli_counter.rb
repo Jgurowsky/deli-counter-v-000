@@ -11,3 +11,5 @@ def line(katz_deli)
     end
   end
 end
+
+line(katz_deli)
