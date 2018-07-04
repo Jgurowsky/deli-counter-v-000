@@ -12,4 +12,6 @@ def line(katz_deli)
   end
 end
 
-line(katz_deli)
+def message(katz_deli)
+  line(katz_deli).each {|name| puts name}
+end
