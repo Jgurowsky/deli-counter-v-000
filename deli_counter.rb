@@ -13,7 +13,7 @@ def line(katz_deli)
 end
 
 def message(katz_deli)
-  line(katz_deli).each {|name| puts "The line is currently: " + name.join}
+  line(katz_deli).each {|name| puts "The line is currently: " + katz_deli.join}
 end
 
 message(katz_deli)
