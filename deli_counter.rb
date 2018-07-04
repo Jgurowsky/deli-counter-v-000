@@ -8,7 +8,7 @@ def line(katz_deli)
       #"The line is currently: #{index + 1}. #{name}"
       "#{index+1}. #{name}"
       end
-      puts katz_deli
+      #puts katz_deli
   end
 end
 
