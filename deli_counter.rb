@@ -14,6 +14,7 @@ end
 
 def message(katz_deli)
   line(katz_deli).each {|name| puts name}
+  line(katz_deli).join
 end
 
 message(katz_deli)
