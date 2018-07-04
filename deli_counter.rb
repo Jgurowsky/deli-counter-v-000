@@ -13,8 +13,7 @@ def line(katz_deli)
 end
 
 def message(katz_deli)
-  #line(katz_deli).each {|name| puts name}
-  line(katz_deli).join
+  line(katz_deli).each {|name| puts name}
 end
 
 message(katz_deli)
