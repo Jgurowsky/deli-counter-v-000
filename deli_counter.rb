@@ -1,4 +1,4 @@
-katz_deli = []
+katz_deli = [kelly, bob, jim]
 
 def line(katz_deli)
   if katz_deli.empty?
